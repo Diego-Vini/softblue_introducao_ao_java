@@ -1,0 +1,17 @@
+
+public class CalculoDeFibonacci {
+	public static void main(String[] args) {
+		int A = 0;
+		int B = 1;
+		int soma = 0;
+		int cont = 0;
+		do{
+			System.out.println(soma);
+			soma = A + B;
+			A++;
+			B = soma - 1;
+			cont++;
+		}while(cont < 15);
+				
+	}
+}

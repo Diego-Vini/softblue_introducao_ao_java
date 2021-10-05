@@ -1,0 +1,15 @@
+
+public class CalculoFatorial {
+	public static void main(String[] args) {
+		int fatorial = 5;
+		int calcFatorial = 0;
+		
+		for(int i = 0; i < fatorial; i++ ) {
+			calcFatorial += fatorial * (fatorial - 1);
+			
+			fatorial--;
+		}
+		
+		System.out.println(calcFatorial);
+	}
+}

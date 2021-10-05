@@ -1,0 +1,14 @@
+
+public class CalculoFatorial {
+	public static void main(String[] args) {
+		int valor = 10;
+		
+		long resposta = 1;
+
+		for (int i = 2; i <= valor; i++) {
+			resposta *= i;
+		}
+
+		System.out.println(resposta);
+	}
+}
